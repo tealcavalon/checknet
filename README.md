@@ -6,5 +6,6 @@ chmod u+x checknet.sh
 
 Them edit your crontab to add the fucntion to run the file
 
-crontab -e
+sudo crontab -e
+
 */10 * * * * /bin/sh /path/to/checknet.sh
